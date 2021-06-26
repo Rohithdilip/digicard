@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+
+body {
+  font-family: "DM Sans", sans-serif;
+}
+
+h6 {
+  font-size: 1.15rem;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+
+.logo {
+  width: 7rem;
+}
+
+button {
+  @apply font-bold tracking-widest py-3 px-6 rounded-md shadow-md;
+}
+
+button:hover {
+  @apply opacity-80 outline-black;
+}
+
+input {
+  @apply border-2 border-gray-400 px-3 py-2 rounded-md my-3;
+}
+
+p {
+  letter-spacing: 0rem;
+}
